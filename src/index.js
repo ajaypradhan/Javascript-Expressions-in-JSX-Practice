@@ -9,7 +9,7 @@ const year = date.getFullYear();
 
 ReactDOM.render(
   <div>
-    <h1>Created by {name}</h1>
+    <p>Created by {name}</p>
     <p>Copyright {year}</p>
   </div>,
   document.getElementById("root")
