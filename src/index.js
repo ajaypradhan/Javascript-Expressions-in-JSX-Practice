@@ -2,8 +2,11 @@
 const React = require("react");
 const ReactDOM = require("react-dom");
 //It should display 2 paragraph HTML elements.
+
 const name = "Ajay Pradhan";
-const year = "2021";
+const date = new Date();
+const year = date.getFullYear();
+
 ReactDOM.render(
   <div>
     <h1>Created by {name}</h1>
